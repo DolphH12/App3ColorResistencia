@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Código de colores de resistencias</string>
     <string name="imagen_resistencia">Imagen resistencia</string>
+    <string name="titutlo">Escoje el color de la resitencia</string>
 </resources>

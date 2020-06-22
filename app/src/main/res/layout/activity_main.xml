@@ -13,65 +13,80 @@
         android:layout_height="wrap_content"
         tools:context=".MainActivity">
 
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/electrolize"
+            android:text="@string/titutlo"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <Button
             android:id="@+id/bt_dato1"
-            android:layout_width="13dp"
-            android:layout_height="35dp"
-            android:layout_marginTop="64dp"
+            android:layout_width="10dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="134dp"
             android:background="@color/aliceblue"
             app:layout_constraintEnd_toEndOf="@+id/imageView4"
-            app:layout_constraintHorizontal_bias="0.363"
+            app:layout_constraintHorizontal_bias="0.415"
             app:layout_constraintStart_toStartOf="@+id/imageView4"
-            app:layout_constraintTop_toTopOf="@+id/imageView4" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/bt_dato2"
-            android:layout_width="13dp"
-            android:layout_height="35dp"
-            android:layout_marginTop="64dp"
+            android:layout_width="11dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="132dp"
             android:background="@color/aliceblue"
             app:layout_constraintEnd_toEndOf="@+id/imageView4"
-            app:layout_constraintHorizontal_bias="0.048"
+            app:layout_constraintHorizontal_bias="0.02"
             app:layout_constraintStart_toEndOf="@+id/bt_dato1"
             app:layout_constraintTop_toTopOf="@+id/imageView4" />
 
         <Button
             android:id="@+id/bt_dato3"
-            android:layout_width="13dp"
-            android:layout_height="35dp"
-            android:layout_marginTop="64dp"
+            android:layout_width="11dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="132dp"
             android:background="@color/aliceblue"
             app:layout_constraintEnd_toEndOf="@+id/imageView4"
-            app:layout_constraintHorizontal_bias="0.186"
-            app:layout_constraintStart_toEndOf="@+id/bt_dato1"
+            app:layout_constraintHorizontal_bias="0.013"
+            app:layout_constraintStart_toEndOf="@+id/bt_dato2"
             app:layout_constraintTop_toTopOf="@+id/imageView4" />
 
         <Button
             android:id="@+id/bt_dato4"
-            android:layout_width="5dp"
-            android:layout_height="34dp"
-            android:layout_marginTop="64dp"
+            android:layout_width="11dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="129dp"
             android:background="@color/aliceblue"
             app:layout_constraintEnd_toEndOf="@+id/imageView4"
-            app:layout_constraintHorizontal_bias="0.423"
+            app:layout_constraintHorizontal_bias="0.205"
             app:layout_constraintStart_toEndOf="@+id/bt_dato1"
             app:layout_constraintTop_toTopOf="@+id/imageView4" />
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="224dp"
-            android:layout_height="195dp"
+            android:layout_width="448dp"
+            android:layout_height="298dp"
+            android:layout_marginTop="4dp"
             android:contentDescription="@string/imagen_resistencia"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintHorizontal_bias="0.509"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@mipmap/resistor" />
+            app:srcCompat="@mipmap/ic_resistor_foreground" />
 
         <Button
             android:id="@+id/bt_negro2"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="105dp"
             android:layout_marginTop="230dp"
             android:backgroundTint="@android:color/background_dark"
@@ -81,7 +96,7 @@
         <Button
             android:id="@+id/bt_negro3"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="230dp"
             android:backgroundTint="@android:color/background_dark"
@@ -91,7 +106,7 @@
         <Button
             android:id="@+id/bt_cafe2"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/sienna"
@@ -101,7 +116,7 @@
         <Button
             android:id="@+id/bt_cafe3"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/sienna"
@@ -111,9 +126,9 @@
         <Button
             android:id="@+id/bt_cafe1"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="30dp"
-            android:layout_marginTop="270dp"
+            android:layout_marginTop="265dp"
             android:backgroundTint="@color/sienna"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -121,9 +136,9 @@
         <Button
             android:id="@+id/bt_cafe4"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="270dp"
+            android:layout_marginTop="265dp"
             android:backgroundTint="@color/sienna"
             app:layout_constraintStart_toEndOf="@+id/bt_cafe3"
             app:layout_constraintTop_toTopOf="parent" />
@@ -131,7 +146,7 @@
         <Button
             android:id="@+id/bt_rojo1"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="30dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/firebrick"
@@ -141,7 +156,7 @@
         <Button
             android:id="@+id/bt_rojo2"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/firebrick"
@@ -151,7 +166,7 @@
         <Button
             android:id="@+id/bt_rojo3"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/firebrick"
@@ -161,7 +176,7 @@
         <Button
             android:id="@+id/bt_rojo4"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/firebrick"
@@ -171,7 +186,7 @@
         <Button
             android:id="@+id/bt_naranja1"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="30dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/darkorange"
@@ -181,7 +196,7 @@
         <Button
             android:id="@+id/bt_naranja2"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/darkorange"
@@ -191,7 +206,7 @@
         <Button
             android:id="@+id/bt_naranja3"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/darkorange"
@@ -201,7 +216,7 @@
         <Button
             android:id="@+id/bt_amarillo1"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="30dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/gold"
@@ -211,7 +226,7 @@
         <Button
             android:id="@+id/bt_amarillo2"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/gold"
@@ -221,7 +236,7 @@
         <Button
             android:id="@+id/bt_amarillo3"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/gold"
@@ -231,7 +246,7 @@
         <Button
             android:id="@+id/bt_verde1"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="30dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/darkviolet"
@@ -241,7 +256,7 @@
         <Button
             android:id="@+id/bt_verde2"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/darkviolet"
@@ -251,7 +266,7 @@
         <Button
             android:id="@+id/bt_verde3"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/darkviolet"
@@ -261,9 +276,9 @@
         <Button
             android:id="@+id/bt_verde4"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="85dp"
+            android:layout_marginTop="76dp"
             android:backgroundTint="@color/darkviolet"
             app:layout_constraintStart_toEndOf="@+id/bt_verde3"
             app:layout_constraintTop_toBottomOf="@+id/bt_rojo4" />
@@ -271,7 +286,7 @@
         <Button
             android:id="@+id/bt_azul1"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="30dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/darkblue"
@@ -281,7 +296,7 @@
         <Button
             android:id="@+id/bt_azul2"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/darkblue"
@@ -291,7 +306,7 @@
         <Button
             android:id="@+id/bt_azul3"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/darkblue"
@@ -301,7 +316,7 @@
         <Button
             android:id="@+id/bt_azul4"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/darkblue"
@@ -311,7 +326,7 @@
         <Button
             android:id="@+id/bt_morado1"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="30dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/darkmagenta"
@@ -321,7 +336,7 @@
         <Button
             android:id="@+id/bt_morado2"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/darkmagenta"
@@ -331,7 +346,7 @@
         <Button
             android:id="@+id/bt_morado3"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/darkmagenta"
@@ -341,7 +356,7 @@
         <Button
             android:id="@+id/bt_morado4"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/darkmagenta"
@@ -351,7 +366,7 @@
         <Button
             android:id="@+id/bt_gris1"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="30dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/dimgray"
@@ -361,7 +376,7 @@
         <Button
             android:id="@+id/bt_gris2"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/dimgray"
@@ -371,7 +386,7 @@
         <Button
             android:id="@+id/bt_gris3"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/dimgray"
@@ -381,7 +396,7 @@
         <Button
             android:id="@+id/bt_gris4"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/dimgray"
@@ -391,7 +406,7 @@
         <Button
             android:id="@+id/bt_blanco1"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="30dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/gainsboro"
@@ -401,7 +416,7 @@
         <Button
             android:id="@+id/bt_blanco2"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/gainsboro"
@@ -411,7 +426,7 @@
         <Button
             android:id="@+id/bt_blanco3"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/gainsboro"
@@ -421,7 +436,7 @@
         <Button
             android:id="@+id/bt_oro3"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="180dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/goldenrod"
@@ -431,9 +446,9 @@
         <Button
             android:id="@+id/bt_oro4"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="41dp"
             android:backgroundTint="@color/goldenrod"
             app:layout_constraintStart_toEndOf="@+id/bt_oro3"
             app:layout_constraintTop_toBottomOf="@+id/bt_gris4" />
@@ -441,7 +456,7 @@
         <Button
             android:id="@+id/bt_plata3"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="180dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/silver"
@@ -451,7 +466,7 @@
         <Button
             android:id="@+id/bt_plata4"
             android:layout_width="70dp"
-            android:layout_height="35dp"
+            android:layout_height="30dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:backgroundTint="@color/silver"
@@ -462,9 +477,9 @@
             android:id="@+id/tv_resultados"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="160dp"
+            android:layout_marginTop="180dp"
             android:textAlignment="center"
-            android:textSize="24sp"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
